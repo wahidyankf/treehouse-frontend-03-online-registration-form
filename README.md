@@ -24,7 +24,11 @@ This app was tested using [HTML](https://validator.w3.org/) and [CSS](https://ji
 
 ## Sreenshots
 
+### Mobile Display
+
 ![Mobile Display](screenshots/display-mobile.png)
+
+### Large Display
 
 ![Large Display](screenshots/display-large.png)
 
