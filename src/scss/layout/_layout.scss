@@ -1,0 +1,104 @@
+.content-wrapper {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.company-title {
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-top: 0;
+    @media(min-width: $break-medium) {
+        display: none;
+    }
+}
+
+.page-info {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+// top hr
+.top-hr {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.top-hr-top,
+.top-hr-bottom {
+    margin: 0.1em 0;
+}
+
+.form-hr {
+    margin: 2.5em 0;
+}
+
+// top fieldset
+.top-fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    @media(min-width: $break-medium) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.top-field-label,
+.top-field-input {
+    margin: 0.5em 0;
+}
+
+.top-field-label {
+    @media(min-width: $break-medium) {
+        width: 25%;
+    }
+}
+
+.top-field-input {
+    @media(min-width: $break-medium) {
+        width: 70%;
+    }
+}
+
+.select-input {
+    width: 100%;
+    @media(min-width: $break-medium) {
+        width: 74.5%;
+    }
+    @media(min-width: $break-large) {
+        width: 73.95%;
+    }
+}
+
+.zip-input {
+    width: 40%;
+    @media(min-width: $break-medium) {
+        margin-left: -2em;
+        width: 30%;
+    }
+}
+
+// bottom-fieldset
+.form-bottom-fieldset {
+    input {
+        height: 1em;
+    }
+    input[type="checkbox"]+label,
+    input[type="radio"]+label {
+        margin-left: 0.5em;
+        line-height: 2em;
+    }
+}
+
+// button
+
+.btn-submit {
+    width: 100%;
+    margin: 1em 0;
+    height: 2.5em;
+    @media(min-width: $break-medium){
+        height: 3em;
+    }
+}

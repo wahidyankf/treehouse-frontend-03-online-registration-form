@@ -1,0 +1,48 @@
+// breaking point
+
+$break-medium: 760px;
+$break-large: 960px;
+
+// descriptive color
+
+$oxford-blue: #2d3945;
+$silver-sand: #c4c8ca;
+$porcelain: #eff0f1;
+$iron: #cbcfd2;
+$ming: #3d6275;
+$kashmir-blue: #537392;
+$fountain-blue: #4ebbb5;
+$bombay: #aeb4b7;
+$regent-gray: #7d8b99;
+
+// functional color
+
+$companyname-bgcolor: $oxford-blue;
+$companyname-fontcolor: white;
+
+$pagetitle-fontcolor: $oxford-blue;
+$pageinfo-fontcolor: $silver-sand;
+
+$hr-color: $oxford-blue;
+
+$formlegend-fontcolor: $oxford-blue;
+$formlabel-fontcolor: $regent-gray;
+$forminput-bgcolor: $porcelain;
+$forminput-fontcolor: $iron;
+$forminput-bordercolor: $ming;
+$forminput-filled-fontcolor: $oxford-blue;
+
+$checkbox-color: $kashmir-blue;
+$radiobutton-color: $kashmir-blue;
+
+$button-bgcolor: $fountain-blue;
+$button-fontcolor: white;
+
+$footer-fontcolor: $bombay;
+
+// fonts
+
+$font-family: 'Merriweather', serif;
+$font-thin: 300;
+$font-normal: 400;
+$font-bold: 700;

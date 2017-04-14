@@ -4,18 +4,95 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Moslem Productivity Tools</title>
+  <title>Online Registration Form</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- build:css css/app.min.css -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/app.css">
   <!-- endbuild -->
 </head>
 
 <body>
 
+  <h1 class="company-title">THE CODE REVIEW</h1>
+  <div class="content-wrapper">
+    <header>
+      <section class="page-info">
+        <h2 class="page-title">Signup for our newsletter</h2>
+        <p class="page-description">Get the latest news on how your code is doing right in your inbox</p>
+      </section>
+    </header>
+    <div class="top-hr">
+      <hr class="top-hr-top">
+      <hr class="top-hr-bottom">
+    </div>
+    <main>
+      <form action="index.html" method="post">
+        <fieldset class="form-top-fieldset">
+          <legend>Contact Information</legend>
+          <div class="top-fieldset-wrapper">
+
+            <label for="user-name" class="top-field-label">Full Name</label>
+            <input type="text" id="user-name" name="user-name" placeholder="Required" class="top-field-input">
+
+            <label for="email" class="top-field-label">Email Address</label>
+            <input type="email" id="email" name="email-address" placeholder="Required" class="top-field-input">
+
+            <label for="phone" class="top-field-label">Phone Number</label>
+            <input type="tel" id="phone" name="phone-number" class="top-field-input">
+
+            <label for="street-address" class="top-field-label">Street Address</label>
+            <input type="text" id="street-address" name="street-address" class="top-field-input">
+
+            <label for="city" class="top-field-label">City</label>
+            <input type="text" id="city" name="city" class="top-field-input">
+
+            <label for="state" class="top-field-label">State</label>
+            <select id="state" name="state" class="top-field-input select-input">
+            <option value="" disabled selected>Choose State</option>
+            <option value="california">California</option>
+            <option value="hawaii">Hawaii</option>
+            <option value="florida">Florida</option>
+            <option value="texas">Texas</option>
+            <option value="massachusetts">Massachusetts</option>
+          </select>
+            <label for="zip-code" class="top-field-label">Zip Code</label>
+            <div class="top-field-input">
+              <input type="text" id="zip-code" name="zip-code" class="zip-input">
+            </div>
+          </div>
+        </fieldset>
+        <hr class="form-hr">
+        <fieldset class="form-bottom-fieldset">
+          <legend>Newsletter</legend>
+          <p class="bottom-fieldset-writing">Select the newsletter you would like to recieve</p>
+          <input type="checkbox" name="newsletter-type" value="html-news" checked id="html-news"><label for="html-news" class="bottom-fieldset-writing">HTML News</label>
+          <br>
+          <input type="checkbox" name="newsletter-type" value="css-news" id="css-news"><label for="css-news" class="bottom-fieldset-writing">CSS News</label>
+          <br>
+          <input type="checkbox" name="newsletter-type" value="javascript-news" id="javascript-news"> <label for="javascript-news"
+            class="bottom-fieldset-writing">JavaScript News</label>
+          <br>
+          <p class="bottom-fieldset-writing">Newsletter Format</p>
+          <input type="radio" name="newsletter-format" value="html" checked id="html-format"><label for="html-format" class="bottom-fieldset-writing">HTML</label>
+          <br>
+          <input type="radio" name="newsletter-format" value="plain-text" id="plain-text-format"><label for="plain-text-format"
+            class="bottom-fieldset-writing">Plain Text</label>
+          <br>
+          <br>
+          <label for="other-topics" class="bottom-fieldset-writing">Other topics you'd like to hear about</label>
+          <textarea id="other-topics" name="other-topics"> </textarea>
+        </fieldset>
+        <button type="submit" class="btn-submit">Sign Up</button>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright The Code Review</p>
+    </footer>
+  </div>
+
   <!-- build:js js/app.min.js -->
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="js/app.js"></script>
   <!-- endbuild -->
 
